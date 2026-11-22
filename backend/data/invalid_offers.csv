@@ -1,0 +1,8 @@
+product_id,product_name,unit,supplier_id,supplier_name,source,external_id,url,price,currency,minimum_quantity,delivery_cost,extra_cost,delivery_days,observed_at,availability
+demo:soap,Учебное мыло,pcs,demo:b,Учебный поставщик Б,demo,soap-valid,https://example.com/soap-valid,45.50,RUB,10,0,0,3,2026-11-22T12:00:00+03:00,in_stock
+demo:soap,Учебное мыло,pcs,demo:b,Учебный поставщик Б,demo,bad-price,https://example.com/bad-price,-1,RUB,10,0,0,3,2026-11-22T12:00:00+03:00,in_stock
+demo:soap,Учебное мыло,pcs,demo:b,Учебный поставщик Б,demo,bad-min,https://example.com/bad-min,45,RUB,0,0,0,3,2026-11-22T12:00:00+03:00,in_stock
+demo:soap,Учебное мыло,pcs,demo:b,Учебный поставщик Б,demo,bad-time,https://example.com/bad-time,45,RUB,10,0,0,3,2026-11-22T12:00:00,in_stock
+demo:soap,Учебное мыло,box,demo:b,Учебный поставщик Б,demo,bad-unit,https://example.com/bad-unit,45,RUB,10,0,0,3,2026-11-22T12:00:00+03:00,in_stock
+demo:soap,Учебное мыло,pcs,demo:b,Учебный поставщик Б,demo,bad-currency,https://example.com/bad-currency,45,XXX,10,0,0,3,2026-11-22T12:00:00+03:00,in_stock
+demo:soap,Учебное мыло,pcs,demo:b,Учебный поставщик Б,demo,bad-days,https://example.com/bad-days,45,RUB,10,0,0,-2,2026-11-22T12:00:00+03:00,in_stock

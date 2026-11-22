@@ -1,0 +1,9 @@
+product_id,product_name,unit,supplier_id,supplier_name,source,external_id,url,price,currency,minimum_quantity,delivery_cost,extra_cost,delivery_days,observed_at,availability
+demo:paper-a4,Учебная бумага A4,pack,demo:a,Учебный поставщик А,demo,paper-a,https://example.com/paper-a,100,RUB,1,1500,0,3,2026-11-21T12:00:00+03:00,in_stock
+demo:paper-a4,Учебная бумага A4,pack,demo:b,Учебный поставщик Б,demo,paper-b,https://example.com/paper-b,125,RUB,1,100,0,2,2026-11-21T12:00:00+03:00,in_stock
+demo:paper-a4,Учебная бумага A4,pack,demo:b,Учебный поставщик Б,demo,paper-b,https://example.com/paper-b,120,RUB,1,100,0,2,2026-11-22T12:00:00+03:00,in_stock
+demo:paper-a4,Учебная бумага A4,pack,demo:c,Учебный поставщик В,demo,paper-c,https://example.com/paper-c,80,RUB,100,0,0,2,2026-11-22T12:00:00+03:00,in_stock
+demo:paper-a4,Учебная бумага A4,pack,demo:d,Учебный поставщик Г,demo,paper-d,https://example.com/paper-d,90,RUB,1,,0,3,2026-11-22T12:00:00+03:00,in_stock
+demo:paper-a4,Учебная бумага A4,pack,demo:e,Учебный поставщик Д,demo,paper-e,https://example.com/paper-e,70,RUB,1,0,0,30,2026-11-22T12:00:00+03:00,in_stock
+demo:coffee,Учебный кофе,kg,demo:a,Учебный поставщик А,demo,coffee-a,https://example.com/coffee-a,900,RUB,1,0,0,2,2026-11-22T12:00:00+03:00,in_stock
+demo:soap,Учебное мыло,pcs,demo:b,Учебный поставщик Б,demo,soap-b,https://example.com/soap-b,45.50,RUB,10,0,0,3,2026-11-22T12:00:00+03:00,in_stock
